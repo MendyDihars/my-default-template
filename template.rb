@@ -76,7 +76,7 @@ JS
 # SCSS
 #######################################
 run 'mv app/assets/stylesheets/application.css'
-file 'app/assets/stylesheets/application.scss' <<-CSS
+file 'app/assets/stylesheets/application.scss', <<-CSS
 @import "bootstrap";
 @import "font-awesome-sprockets";
 @import "font-awesome";
